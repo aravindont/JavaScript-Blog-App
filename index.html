@@ -4,7 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>JavaScript Blog</title>
   </head>
-  <body></body>
+  <body>
+    <h1 align="center">Blog App</h1>
+    <p align="center" class="top-supporting-text">......Write Blogs</p>
+    <hr />
+    <h1 align="center">create Posts</h1>
+    <section class="create-blogs container">
+      <input
+        placeholder="Title..."
+        type="text"
+        name="post-title"
+        class="post-title"
+      />
+      <input
+        placeholder="post details..."
+        type="text"
+        name="post-body"
+        class="post-body"
+      />
+      <button class="uploadBtn">add posts</button>
+    </section>
+    <hr />
+    <h1 align="center">Read Posts <span class="posts-number"></span></h1>
+    <section class="read-blogs container"></section>
+    <script src="./index.js"></script>
+  </body>
 </html>
